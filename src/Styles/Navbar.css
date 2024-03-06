@@ -1,0 +1,52 @@
+.Navbar-container{
+    background-color: black;
+    color: white;
+}
+.Navbar-wrapper{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px , 50px;
+    height: 70px;
+}
+.Center{
+  display: flex;  
+
+}
+.input-search{
+    width: 240px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: #ffff;
+    height: 30px;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 575px) {
+    .Navbar-wrapper{
+       
+        padding: 0px , 20px;
+      
+    }
+   
+      .input-search{
+        width: 130px;
+       
+        height: 40px;
+        align-items: center;
+    }
+    .right{
+       
+        gap: 10px;
+        font-size: 14px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+  }

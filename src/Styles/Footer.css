@@ -1,0 +1,49 @@
+.Footer {
+    background-color: black;
+    color: #ffff;
+    margin-top: 50px;
+    padding: 20px 0;
+    margin-left: 0px;
+}
+
+.Footer-wrapper {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px; 
+    height: 100%; 
+    margin-left: 0px !important ; 
+}
+
+.Left, .center, .Right {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 16px;
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+.center{
+    margin-top: 45px; 
+}
+
+.Left span:first-child,
+.center span:first-child,
+.Right span:first-child {
+    margin-top: 0; /* Remove top margin from the first span in each section */
+}
+
+@media only screen and (max-width: 767px) {
+    .Footer-wrapper {
+        flex-direction: column; 
+    }
+    
+    .Left, .center, .Right {
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+    }
+}

@@ -1,0 +1,26 @@
+.tools-wrapper{
+    display :flex;
+    align-items: center;
+    color: #4B5665;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.opitons span{
+   
+    width: 105px;
+    height: 70px;
+   padding: 10px;
+   border-radius: 12px;
+    background-color: #ffff;
+    font-size: 14px;
+    font-weight: 400px;
+    cursor: pointer;
+  
+}
+.opitons span {
+    margin-right: 10px; 
+}
+.opitons span:last-child {
+    margin-right: 0; 
+}

@@ -1,0 +1,31 @@
+.Signup-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Title{
+    display: flex;
+    width: 398px;
+    font-size: 32px;
+    color: #5C6874;
+    font-weight: 400;
+}
+
+
+.Signup-input{
+    background-color: #fff;
+    border: none;
+    outline: none;
+    padding: 15px;
+}
+.Signup-button{
+    background-color:  #1B88F4;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+   
+   padding: 15px;
+   
+}
